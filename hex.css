@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("aakash-dhage-LEJc0kZHaAQ-unsplash.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  cursor: default;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  user-select: none;
+}
+
+#title h1 {
+  display: flex;
+  align-items: baseline;
+  color: rgba(211, 115, 5, 0.781);
+  margin: 5px 15px;
+  text-shadow: 1px 1px 3px white;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(108, 108, 108, 0.728);
+  border-radius: 2px;
+}
+
+.inputField {
+  margin: 0px 25px;
+}
+
+.inputField p {
+  color: rgba(255, 255, 255, 0.785);
+  margin: 20px 0px;
+}
+
+.inputField input {
+  background-color: rgba(87, 87, 87, 0.58);
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-style: inset;
+  border-width: 3px;
+  width: 350px;
+  outline: none;
+  cursor: text;
+}
+
+.wrapper .inputField input::placeholder {
+  color: rgb(158, 156, 156);
+}
+
+.inputField a {
+  background-color: rgba(0, 0, 0, 0.603);
+  color: orange;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin-left: 10px;
+  cursor: pointer;
+  scale(1);
+}
+
+.inputField a:hover {
+  box-shadow: 0px 0px 2px black;
+}
+
+.inputField a:active {
+  box-shadow: 0px 0px 0px black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 40px;
+}
+
+main article {
+  display: flex;
+
+  font-size: 20px;
+}
+
+article input {
+  accent-color: orange;
+}
+
+article li {
+  color: white;
+  margin: 0px 10px;
+  list-style: none;
+}
+
+article a {
+  color: orange;
+}
+
+#btncont {
+  margin-top: 50px;
+  
+}
+
+#btncont a {
+  font-size: 40px;
+
+  padding: 10px;
+  font-weight: bolder;
+  color: rgb(195, 0, 255);
+  text-shadow: 2px 2px 4px rgba(253, 253, 253, 0.789);
+  text-decoration: none;
+  cursor: pointer;
+
+  background-color: rgba(42, 3, 54, 0.71);
+
+  border-style: double;
+  border-color: rgb(195, 0, 255);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgb(234, 128, 230);
+  border-width: 10px;
+  scale: 1;
+}
+
+#btncont a:hover {
+  transition: 0.2s;
+  box-shadow: 0px 0px 26px rgb(234, 128, 230);
+}
